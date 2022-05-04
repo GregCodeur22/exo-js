@@ -19,19 +19,19 @@ billesJeanne--;
 const billesRestantesPierre = billesPierre % 4;
 const boulardsPierre = (billesPierre - billesRestantesPierre) / 4;
 
-console.log(billesRestantesPierre); // 3
-console.log(boulardsPierre); // 2
+console.log(billesRestantesPierre);
+console.log(boulardsPierre);
 
 // l'échange avec Jeanne
 const billesRestantesjeanne = billesJeanne % 2;
 const boulardsjeanne = (billesJeanne - billesRestantesjeanne) / 2;
 
-console.log(billesRestantesjeanne); // 0
-console.log(boulardsjeanne); // 8
+console.log(billesRestantesjeanne);
+console.log(boulardsjeanne);
 
 // l'échange avec Paul
 const billesRestantesPaul = billesPaul % 3;
 const boulardsPaul = (billesPaul - billesRestantesPaul) / 3;
 
-console.log(billesRestantesPaul); // 0
-console.log(boulardsPaul); // 1
+console.log(billesRestantesPaul);
+console.log(boulardsPaul);
